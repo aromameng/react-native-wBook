@@ -33,8 +33,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'stretch',
     marginHorizontal: 10,
-    width: px2dp(140),
-    height: px2dp(200),
+    width: px2dp(200),
+    height: px2dp(280),
     marginBottom: px2dp(20),
   },
   bookImgBox: {
@@ -51,8 +51,8 @@ const styles = StyleSheet.create({
     paddingTop: 10
   },
   bookImg: {
-    width: px2dp(60),
-    height: px2dp(100),
+    width: px2dp(80),
+    height: px2dp(120),
   },
   bookTitle: {
     fontSize: 14,

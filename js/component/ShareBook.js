@@ -69,8 +69,8 @@ const styles = StyleSheet.create({
     paddingTop: px2dp(10),
   },
   bookImg: {
-    width: px2dp(160),
-    height: px2dp(240),
+    width: px2dp(200),
+    height: px2dp(300),
   },
   bookTitle: {
     fontSize: 14,
