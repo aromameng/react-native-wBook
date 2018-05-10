@@ -19,6 +19,7 @@ import BookList from './page/BookList'
 import Idea from './page/Idea'
 import My from './page/My'
 import IdeaDetail from './page/IdeaDetail'
+import BookDetail from './page/BookDetail'
 
 // 底部导航
 const DB_App = createMaterialTopTabNavigator({
@@ -60,6 +61,7 @@ const DB_App = createMaterialTopTabNavigator({
   }
 }, {
   tabBarPosition: 'bottom',
+  swipeEnabled: false,
   tabBarOptions: {
     activeTintColor: '#31AEFE',
     inactiveTintColor: '#666',
@@ -82,7 +84,8 @@ const App = createStackNavigator({
   Main: {
     screen: DB_App
   },
-  IdeaDetail: {screen: IdeaDetail}
+  IdeaDetail: {screen: IdeaDetail},
+  BookDetail: {screen: BookDetail},
 },{
   headerMode:'screen'
 });
